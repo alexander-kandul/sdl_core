@@ -1,7 +1,6 @@
 [![Slack Status](http://sdlslack.herokuapp.com/badge.svg)](http://slack.smartdevicelink.com)
-[![codecov.io](https://codecov.io/github/smartdevicelink/sdl_core/coverage.svg?branch=develop)](https://codecov.io/github/smartdevicelink/sdl_core?branch=develop)
+[![codecov](https://codecov.io/gh/alexander-kandul/sdl_core/branch/master/graph/badge.svg)](https://codecov.io/gh/alexander-kandul/sdl_core)
 [![Build Status](https://travis-ci.com/alexander-kandul/sdl_core.svg?branch=master)](https://travis-ci.com/alexander-kandul/sdl_core)
-[![Coverage Status](https://coveralls.io/repos/github/alexander-kandul/sdl_core/badge.svg?branch=master)](https://coveralls.io/github/alexander-kandul/sdl_core?branch=master)
 
 # SmartDeviceLink (SDL)
 
