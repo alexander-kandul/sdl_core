@@ -2,12 +2,7 @@ language: cpp
 dist: xenial
 sudo: required
 only:
-  - master
   - develop
-  - \/feature\/.+
-  - \/fix\/.+
-  - \/hotfix\/.+
-  - \/release\/.+
 
 addons:
   apt:
@@ -25,6 +20,10 @@ script:
   - mkdir build && cd build
   - cmake ../ -DBUILD_TESTS=ON
   - make install-3rd_party && make -j `nproc` install && sudo ldconfig && make test
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+
 env:
   global:
   - LC_CTYPE=en_US.UTF-8
